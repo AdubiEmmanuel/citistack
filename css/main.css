@@ -1,16 +1,42 @@
 html,body{
   padding: 0;
   margin: 0;
-  /* font-family: 'product', sans-serif;
-  font-family: 'Junge', serif; */
-  font-size: 1.2rem;
-  font-weight: bold;
+  line-height:1.6em;
   font-style: Product Sans;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+  font-weight: 600;
+  color:black;
+
+}
+
+p{
+  font-size: 90%;
+  font-weight: 200;
+  text-align: center;
+  color:black;
+}
+
+.container-fluid{
+  /* margin-right: 0 25px 0 25px !important; */
+}
+
+.container{
+  /* margin: 0 25px 0 25px !important; */
+}
+
+::placeholder{
+  color:#8D8D8D !important;
+  opacity: 0.6 !important;
 }
 
 .btn{
   width:90%;
   box-shadow: 0px 0px 15px 1px grey;
+  text-align: center;
+  font-size: 10px;
 
 }
 
@@ -71,18 +97,37 @@ width: 100%;
     border-bottom: 2px solid white;
 }
 
-
-
 img{
-  max-width: 100% !important;
-  height: auto !important;
+  max-width:100%;
+  max-height: 100%;
 }
 
-.card-img-top{
-  align-items: center;
-  height: 328px;
-  width: 372px;
-  }
+.top-img{
+  max-width: 60% !important;
+  height: 60% !important;
+}
+
+.img-gb-1{
+  height:100%;
+  width:100%;
+  align-items:center;
+  text-align: center;
+}
+
+.img-gb-2{
+  height: 100%;
+  width: 60%;
+  align-items:center;
+  text-align: center;
+
+};
+
+.bg-row{
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+
 
 header{
   text-align: center;
@@ -159,6 +204,11 @@ header{
   height:100% !important;
   width: 100% !important;
   background-position: relative;
+}
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
 }
 
 .bg-footer{
